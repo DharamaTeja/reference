@@ -29,7 +29,7 @@ public class Info extends HttpServlet {
 	    String account=request.getParameter("account");
 	    String bankname=request.getParameter("bankname");
 	    
-	    System.out.println("name...............");
+	    System.out.println("Your name is"+name.........);
 
 	    hbdetails obj = new hbdetails();
 		obj.saveUser(name, email, no, account,bankname);

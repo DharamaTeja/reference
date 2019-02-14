@@ -74,6 +74,7 @@ public class Success extends HttpServlet {
 			}
 		pw.print("</table>");
 		}		
+		//linking to index page
     	pw.println("<a href='index.jsp'>GoToMain</a>");
 	}
 
